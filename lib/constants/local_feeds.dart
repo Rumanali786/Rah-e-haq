@@ -1,3 +1,4 @@
+
 const asmaulhusna = [
   {
     "sr": 1,
@@ -2290,3 +2291,117 @@ const surahs = [{
   "numberOfAyahs": 6,
   "revelationType": "Meccan"
 }];
+
+class URL {
+  static String url = "https://apiastana.codensoft.com/";
+}
+
+
+
+ const pdf =[
+  {
+    "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/1.jpg"
+  },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/2.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/3.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/4.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/5.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/6.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/7.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/8.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/9.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/10.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/11.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/12.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/13.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/14.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/15.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/16.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/17.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/18.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/19.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/20.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/21.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/22.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/23.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/24.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/25.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/26.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/27.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/28.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/29.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/30.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/31.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/32.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/33.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/34.jpg"
+   },
+   {
+     "pdfurl": "https://apiastana.codensoft.com/assets/img/shijrah-shareef/35.jpg"
+   },
+];

@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 
-class AlBukhari extends StatefulWidget {
+class AlNasai extends StatefulWidget {
   @override
-  _AlBukhariState createState() => _AlBukhariState();
+  _AlNasaiState createState() => _AlNasaiState();
 }
 
-class _AlBukhariState extends State<AlBukhari> {
+class _AlNasaiState extends State<AlNasai> {
   List data = [];
 
   _fetchData() async {
     final response =
-    await http.get("https://apiastana.codensoft.com/ahadiths/books/1");
+        await http.get("https://apiastana.codensoft.com/ahadiths/books/4");
     if (response.statusCode == 200) {
       setState(() {
         Map map = json.decode(response.body);
@@ -46,17 +46,32 @@ class _AlBukhariState extends State<AlBukhari> {
       body: ListView.builder(
           shrinkWrap: true,
           itemCount: data.length,
-          itemBuilder: (context,index){
+          itemBuilder: (context, index) {
             return Container(
-              height: 50,
+              height: 60,
               child: Card(
                 child: Expanded(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      Text(data[index]['book'],style: TextStyle(fontFamily: 'Jameel',fontSize: 17,fontWeight: FontWeight.bold),),
-                      Text(' . ',style: TextStyle(fontFamily: 'Jameel',fontSize: 17,fontWeight: FontWeight.bold)),
-                      Text(data[index]['book_number'],style: TextStyle(fontFamily: 'Jameel',fontSize: 17,fontWeight: FontWeight.bold))
+                      Text(
+                        data[index]['book'],
+                        style: TextStyle(
+                            fontFamily: 'Jameel',
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
+                        textDirection: TextDirection.rtl,
+                      ),
+                      Text(' . ',
+                          style: TextStyle(
+                              fontFamily: 'Jameel',
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold)),
+                      Text(data[index]['book_number'],
+                          style: TextStyle(
+                              fontFamily: 'Jameel',
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold))
                     ],
                   ),
                 ),
